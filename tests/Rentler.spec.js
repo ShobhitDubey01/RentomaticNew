@@ -14,14 +14,14 @@ test('Zillow', async ({
 }) => {
 
   //Inputs User want to Change
-  var CityName = "Lehi, Utah";
+  var CityName = "South Jordan, Utah";
 
 
   //if user doesn't want to filterate
 
-  var Min = null;
-  var Max = null;
- // var Propertytype=[];
+  //var Min = null;
+  //var Max = null;
+  var Propertytype=[];
   var BedRooms=[];
   var Baths=[];
   var moreFilters=[];
@@ -32,10 +32,10 @@ test('Zillow', async ({
 
  // when user want to give filter
 
-  // var Min="$1,000";
-  // var Max="$4,500";
-   var Propertytype = ['Apartment'];
-   var BedRooms = ['Studio','4'];
+   var Min="$2,000";
+   var Max="$3,000";
+  // var Propertytype = ['Apartment'];
+  // var BedRooms = ['Studio','4'];
   // var Baths=['4'];
   // var moreFilters=['Small Dogs Allowed'];
   // var propertiesSort='Price: Low - High';
